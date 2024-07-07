@@ -82,16 +82,9 @@
     // Filemanager Launcher
     "custom/filemanager": {
         "format": "    ",
-        "on-click": "/home/jason/.config/waybar/Scripts/filemanager.sh",
+        "on-click": "~/.config/waybar/Scripts/filemanager.sh",
         "tooltip": false
-    },
-
-    // Browser Launcher
-    "custom/browser": {
-        "format": "",
-        "on-click": "~/dotfiles/.settings/browser.sh",
-        "tooltip": false
-    },    
+    },  
 
     // ChatGPT Launcher
     "custom/chatgpt": {
@@ -100,23 +93,6 @@
         "tooltip": false
     },
 
-    // Power Menu
-    "custom/exit": {
-        "format": "",
-        "on-click": "wlogout",
-        "tooltip": false
-    },
-
-    // Keyboard State
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
-    },
 
     // System tray
     "tray": {
