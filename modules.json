@@ -94,45 +94,10 @@
         "tooltip": false
     },
 
-    // Waybar Themes
-    "custom/waybarthemes": {
-        "format": "",
-        "on-click": "~/dotfiles/waybar/themeswitcher.sh",
-        "tooltip": false
-    },
-    
-    // Settings
-    "custom/settings": {
-        "format": "",
-        "on-click": "alacritty --class dotfiles-floating -e ~/dotfiles/hypr/start-settings.sh",
-        "tooltip": false
-    },
-
-    // Keybindings
-    "custom/keybindings": {
-        "format": "",
-        "on-click": "~/dotfiles/hypr/scripts/keybindings.sh",
-        "tooltip": false
-    },
-
     // Filemanager Launcher
     "custom/filemanager": {
         "format": "    ",
         "on-click": "/home/jason/.config/waybar/Scripts/filemanager.sh",
-        "tooltip": false
-    },
-
-    // Outlook Launcher
-    "custom/outlook": {
-        "format": "",
-        "on-click": "brave --app=https://outlook.office.com/mail/",
-        "tooltip": false
-    },
-
-    // Teams Launcher
-     "custom/teams": {
-        "format": "   ",
-        "on-click": "chromium --app=http://192.168.10.250:8080/#/client/MTIAYwBwb3N0Z3Jlc3Fs",
         "tooltip": false
     },
 
@@ -150,30 +115,6 @@
         "tooltip": false
     },
 
-    // Calculator
-    "custom/calculator": {
-        "format": "",
-        "on-click": "qalculate-gtk",
-        "tooltip": false
-    },
-
-    // Windows VM
-    "custom/windowsvm": {
-        "format": "",
-        "on-click": "~/dotfiles/scripts/launchvm.sh",
-        "tooltip": false
-    },
-
-    // Rofi Application Launcher
-    "custom/appmenu": {
-        // START APPS LABEL
-"format": "Jason",
-        // END APPS LABEL
-        "on-click": "rofi -show drun -replace",
-        "on-click-right": "~/dotfiles/hypr/scripts/keybindings.sh",
-        "tooltip": false
-    },
-    
     // Power Menu
     "custom/exit": {
         "format": "",
